@@ -1,32 +1,31 @@
-Web Slide Control
+slidercontroller
 ===
-Web slide control from anywhere else.
+a controller to control slideshow slide among different device based on socket.io
 ---
 
 ### Controller
 Control the slide
 
-    - Login by email
+    - Login by string
     
-Demo: http://webslidecontrol.herokuapp.com/
+Demo: http://localhost:3000
 
 
 ### WebSlide
 Controlled slide
 
-Demo: http://leechwin.github.com/webslidecontrol/
+Demo: http://localhost:3000/impress.js/index.html
 
 Prerequisites:
 
 Your webslide include follow links:
 
-    - Webslidecontrol client
-    - Added user email param
-      - Email is used to controller login.
+    - open below slide and controller two links
+    - Added user string param in your controller page (this demo used 331547274)
+      - This string is used to controller login.
 
-        <script src="http://webslidecontrol.herokuapp.com/webslidecontrol.js?user=Email"></script>
+        <script type="text/javascript" src="/webslidecontrol.js?user=331547274"></script>
         
-    ex) <script src="http://webslidecontrol.herokuapp.com/webslidecontrol.js?user=leechwin1@gmail.com"></script>
 
 
 Current support slide framework:
